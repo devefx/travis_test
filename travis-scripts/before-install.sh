@@ -14,7 +14,7 @@ cd ${VS140COMNTOOLS}
 
 if [ -d $VS140COMNTOOLS ] ; then
   echo "====================${VS140COMNTOOLS}"
-elif
+else
   echo "--------------------${VS140COMNTOOLS}"
 fi
 
