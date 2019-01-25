@@ -5,3 +5,5 @@ cmake --version
 
 cd ~ 
 ls
+
+env 
