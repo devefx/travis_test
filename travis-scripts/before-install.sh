@@ -12,12 +12,10 @@ echo "====================${VS140COMNTOOLS}"
 
 cd /c/progra~2
 
-if [ -d $VS140COMNTOOLS ] ; then
-  echo "====================${VS140COMNTOOLS}"
-else
-  echo "--------------------${VS140COMNTOOLS}"
-fi
-
-pwd
-
 ls
+echo "===================="
+ls -l "/c/Program Files (x86)/MSBuild"
+echo "===================="
+ls -l "/c/Program Files (x86)/Microsoft Visual Studio"
+echo "===================="
+ls -l "/c/Program Files (x86)/Microsoft Visual Studio 14.0"
