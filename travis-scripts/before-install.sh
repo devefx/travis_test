@@ -1,4 +1,4 @@
 
 ls
 
-camke --version
+cmake --version
