@@ -1,4 +1,2 @@
 
-
-MSBuild.exe
-
+ls
