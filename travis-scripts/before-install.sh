@@ -1,4 +1,4 @@
 
 ls
 
-echo %PATH%
+camke --version
