@@ -1,0 +1,12 @@
+matrix:
+  include:
+    - os: windows
+      env: 
+        - BUILD_TARGET=win32 
+      language: cpp
+
+before_install:
+  - travis-scripts/before-install.sh
+
+script:
+  - travis-scripts/run-script.sh
