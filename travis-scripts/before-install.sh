@@ -34,4 +34,6 @@ ls
 if [ -d "/c/Program Files (x86)/MSBuild/15.0/bin" ] ; then
   cd "/c/Program Files (x86)/MSBuild/15.0/bin"
   ls
+else
+  echo "no msbuild bin"
 fi
