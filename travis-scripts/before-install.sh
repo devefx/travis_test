@@ -28,5 +28,5 @@ ls -l "/c/Program Files (x86)/Microsoft Visual Studio/2017"
 echo "====================Microsoft Visual Studio 14.0/Common7"
 ls -l "/c/Program Files (x86)/Microsoft Visual Studio 14.0/Common7"
 
-cd /c/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE
+cd "/c/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE"
 ls
