@@ -20,3 +20,11 @@ echo "===================="
 ls -l "/c/Program Files (x86)/Microsoft Visual Studio"
 echo "===================="
 ls -l "/c/Program Files (x86)/Microsoft Visual Studio 14.0"
+
+echo "====================MSBuild/15.0"
+ls -l "/c/Program Files (x86)/MSBuild/15.0"
+echo "====================Microsoft Visual Studio/2017"
+ls -l "/c/Program Files (x86)/Microsoft Visual Studio/2017"
+echo "====================Microsoft Visual Studio 14.0/Common7"
+ls -l "/c/Program Files (x86)/Microsoft Visual Studio 14.0/Common7"
+
