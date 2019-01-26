@@ -2,6 +2,7 @@
 ls
 
 cmake --version
+python --version
 
 cd ~ 
 ls
