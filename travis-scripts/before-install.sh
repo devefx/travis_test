@@ -58,6 +58,10 @@ ls -l
 echo "====================Microsoft Visual Studio/2017/BuildTools/VC/Auxiliary/Build"
 cd "/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Auxiliary/Build"
 ls -l
+
+vi vcvars32.bat
+vi vcvarsall.bat
+
 echo "====================Microsoft Visual Studio/2017/BuildTools/VC/Auxiliary/VS"
 cd "/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Auxiliary/VS"
 ls -l
