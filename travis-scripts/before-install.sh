@@ -28,18 +28,32 @@ ls
 echo "====================Microsoft Visual Studio/2017"
 cd "/c/Program Files (x86)/Microsoft Visual Studio/2017"
 ls
+echo "====================Microsoft Visual Studio/2017/BuildTools"
+cd "/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools"
+ls
+
 
 
 echo "====================Microsoft Visual Studio 14.0"
 cd "/c/Program Files (x86)/Microsoft Visual Studio 14.0"
 ls
+
 echo "====================Microsoft Visual Studio 14.0/Common7"
 cd "/c/Program Files (x86)/Microsoft Visual Studio 14.0/Common7"
 ls
+echo "====================Microsoft Visual Studio 14.0/Common7/IDE"
+cd "/c/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/IDE"
+ls
+echo "====================Microsoft Visual Studio 14.0/Common7/Tools"
+cd "/c/Program Files (x86)/Microsoft Visual Studio 14.0/Common7/Tools"
+ls
+
 echo "====================Microsoft Visual Studio 14.0/VC"
 cd "/c/Program Files (x86)/Microsoft Visual Studio 14.0/VC"
 ls
-
+echo "====================Microsoft Visual Studio 14.0/VC/bin"
+cd "/c/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin"
+ls
 
 
 if [ -d "/c/Program Files (x86)/MSBuild/15.0/bin" ] ; then
