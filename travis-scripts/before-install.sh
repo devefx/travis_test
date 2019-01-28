@@ -34,12 +34,23 @@ ls
 echo "====================Microsoft Visual Studio/2017/BuildTools/Common7"
 cd "/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/Common7"
 ls -l
+echo "====================Microsoft Visual Studio/2017/BuildTools/Common7/IDE"
+cd "/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/Common7/IDE"
+ls -l
 echo "====================Microsoft Visual Studio/2017/BuildTools/MSBuild"
 cd "/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild"
+ls -l
+echo "====================Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0"
+cd "/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/MSBuild/15.0"
 ls -l
 echo "====================Microsoft Visual Studio/2017/BuildTools/VC"
 cd "/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC"
 ls -l
+echo "====================Microsoft Visual Studio/2017/BuildTools/VC/Auxiliary"
+cd "/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Auxiliary"
+ls -l
+
+
 
 
 echo "====================Microsoft Visual Studio 14.0"
