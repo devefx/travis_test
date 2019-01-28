@@ -60,7 +60,7 @@ cd "/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Auxiliary/
 ls -l
 
 
-/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Auxiliary/Build/vcvarsall.bat x86
+"/c/Program Files (x86)/Microsoft Visual Studio/2017/BuildTools/VC/Auxiliary/Build/vcvarsall.bat" x86
 env
 
 echo "====================Microsoft Visual Studio/2017/BuildTools/VC/Auxiliary/VS"
