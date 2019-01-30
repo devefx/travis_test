@@ -117,9 +117,11 @@ PIP_DOWNLOAD_URL="https://files.pythonhosted.org/packages/c8/89/ad7f27938e59db1f
 echo "Download ${PIP_DOWNLOAD_URL}"
 curl -O ${PIP_DOWNLOAD_URL}
 tar -zxf "pip-19.0.1.tar.gz"
-ls
 cd "pip-19.0.1"
 python setup.py install
+
+
+
 
 popd
 
