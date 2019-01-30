@@ -97,6 +97,5 @@ else
   echo "no msbuild bin"
 fi
 
-popd
 
 
