@@ -2,17 +2,16 @@
 mkdir -p $HOME/bin
 pushd $HOME/bin
 
-SETUPTOOLS_VERSION="40.7.1"
-SETUPTOOLS_DOWNLOAD_URL="https://github.com/pypa/setuptools/archive/v${SETUPTOOLS_VERSION}.tar.gz"
+SETUPTOOLS_DOWNLOAD_URL="https://files.pythonhosted.org/packages/3b/17/81a4ab4c94e9c78f98dfaad0208994129213089361dc53a7cd8de177d1e3/setuptools-40.7.1.zip"
 echo "Download ${SETUPTOOLS_DOWNLOAD_URL}"
-curl ${SETUPTOOLS_DOWNLOAD_URL} -o "setuptools-${SETUPTOOLS_VERSION}.tar.gz"
+curl -O ${SETUPTOOLS_DOWNLOAD_URL}
 ls
-tar -zxf "setuptools-${SETUPTOOLS_VERSION}.tar.gz"
+unzip "setuptools-40.7.1.zip" -d "setuptools-40.7.1"  > /dev/null
 ls
-cd "setuptools-${SETUPTOOLS_VERSION}"
+cd "setuptools-40.7.1"
 python setup.py install
 
- echo "Inatll"
+echo "Inatll"
 
 cd ..
 
