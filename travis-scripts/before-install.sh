@@ -118,7 +118,7 @@ echo "Download ${PIP_DOWNLOAD_URL}"
 curl -O ${PIP_DOWNLOAD_URL}
 tar -zxf "pip-19.0.1.tar.gz"
 cd "pip-19.0.1"
-python setup.py install
+#python setup.py install
 
 
 
