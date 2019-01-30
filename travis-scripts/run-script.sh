@@ -6,7 +6,9 @@ SETUPTOOLS_VERSION="40.7.1"
 SETUPTOOLS_DOWNLOAD_URL="https://github.com/pypa/setuptools/archive/v${SETUPTOOLS_VERSION}.tar.gz"
 echo "Download ${SETUPTOOLS_DOWNLOAD_URL}"
 curl ${SETUPTOOLS_DOWNLOAD_URL} -o "setuptools-${SETUPTOOLS_VERSION}.tar.gz"
+ls
 tar -zxf "setuptools-${SETUPTOOLS_VERSION}.tar.gz"
+ls
 cd "setuptools-${SETUPTOOLS_VERSION}"
 python setup.py install
 
