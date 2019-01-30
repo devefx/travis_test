@@ -106,7 +106,7 @@ pushd $HOME/bin
 SETUPTOOLS_DOWNLOAD_URL="https://files.pythonhosted.org/packages/3b/17/81a4ab4c94e9c78f98dfaad0208994129213089361dc53a7cd8de177d1e3/setuptools-40.7.1.zip"
 echo "Download ${SETUPTOOLS_DOWNLOAD_URL}"
 curl -O ${SETUPTOOLS_DOWNLOAD_URL}
-unzip "setuptools-40.7.1.zip" -d "setuptools-40.7.1"  > /dev/null
+unzip "setuptools-40.7.1.zip" > /dev/null
 cd "setuptools-40.7.1"
 ls
 python setup.py install
