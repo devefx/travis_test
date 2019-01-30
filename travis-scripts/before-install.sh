@@ -108,6 +108,7 @@ echo "Download ${SETUPTOOLS_DOWNLOAD_URL}"
 curl -O ${SETUPTOOLS_DOWNLOAD_URL}
 unzip "setuptools-40.7.1.zip" -d "setuptools-40.7.1"  > /dev/null
 cd "setuptools-40.7.1"
+ls
 python setup.py install
 echo "setuptools-40.7.1 installed!"
 
