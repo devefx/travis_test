@@ -4,7 +4,7 @@ ls
 cmake --version
 python --version
 pip --version
-
+choco --version
 
 
 choco install python
