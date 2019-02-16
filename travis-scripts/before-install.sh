@@ -3,6 +3,7 @@ ls
 
 cmake --version
 python --version
+pip --version
 
 cd ~ 
 ls
@@ -98,4 +99,12 @@ else
 fi
 
 
+
+
+
+choco install python
+
+python --version
+
+python -m pip install retry
 
