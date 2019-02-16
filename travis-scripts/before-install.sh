@@ -9,6 +9,8 @@ pip --version
 
 choco install python
 
+refreshenv
+
 python --version
 
 
