@@ -6,6 +6,8 @@ python --version
 pip --version
 choco --version
 
+choco upgrade chocolatey
+
 refreshenv
 
 choco install python
