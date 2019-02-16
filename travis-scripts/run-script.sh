@@ -1,13 +1,6 @@
 
 
-choco install python
 
-python --version
-
-
-python -m pip install retry
-
-pip --version
 
 echo "*************************************************************************************************************"
 
