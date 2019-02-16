@@ -1,10 +1,11 @@
 
 
-choco install python2
+choco install python
 
 python --version
 
 
+python -m pip install retry
 
 
 echo "*************************************************************************************************************"
@@ -32,5 +33,3 @@ echo "setuptools-40.7.1 installed!"
 
 popd
 
-
-python -m pip install retry
