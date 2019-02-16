@@ -5,6 +5,13 @@ cmake --version
 python --version
 pip --version
 
+
+
+choco install python
+
+python --version
+
+
 cd ~ 
 ls
 
@@ -102,9 +109,8 @@ fi
 
 
 
-choco install python
 
-python --version
+echo "====================call python -m pip install retry"
 
 python -m pip install retry
 
