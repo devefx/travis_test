@@ -17,7 +17,9 @@ refreshenv
 
 choco install python
 
-refreshenv
+RefreshEnv
+
+RefreshEnv.cmd
 
 python --version
 
