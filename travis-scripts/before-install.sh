@@ -120,7 +120,8 @@ fi
 
 
 
-
+wget http://bootstrap.pypa.io/get-pip.py
+sudo python get-pip.py
 
 echo "====================call python -m pip install retry"
 
