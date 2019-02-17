@@ -8,16 +8,16 @@ choco --version
 
 choco upgrade chocolatey
 
-echo "====================chocolatey"
+echo "====================chocolatey/bin"
 cd "/c/ProgramData/chocolatey/bin"
 ls
 
+echo "====================mingw64/bin"
+cd "/c/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin"
+ls
 
-refreshenv
 
 choco install python
-
-RefreshEnv
 
 RefreshEnv.cmd
 
