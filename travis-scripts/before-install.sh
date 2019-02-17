@@ -8,6 +8,11 @@ choco --version
 
 choco upgrade chocolatey
 
+echo "====================chocolatey"
+cd "/c/ProgramData/chocolatey/bin"
+ls
+
+
 refreshenv
 
 choco install python
