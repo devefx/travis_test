@@ -4,8 +4,11 @@ matrix:
       env: 
         - BUILD_TARGET=win32 
       language: cpp
+      python: "2.7"
 
 before_install:
+  - choco install python2
+  - export PATH="/c/Python27:/c/Python27/Scripts:$PATH"
   - travis-scripts/before-install.sh
 
 script:
