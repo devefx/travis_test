@@ -17,7 +17,9 @@ cd "/c/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin"
 ls
 
 
-choco install python
+choco install python2
+
+
 
 RefreshEnv.cmd
 
